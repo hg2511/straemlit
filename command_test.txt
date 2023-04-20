@@ -1,0 +1,27 @@
+# connect your remote git repo using below command.
+$ git config --global user.name "Hitesh"
+$ git config --global user.email "hg2511@gmail.com"
+
+# clone the git repo to your local machine
+$ git clone https://github.com/hg2511/streamlit.git
+
+# move the git directory
+$ cd streamlit/
+
+# check the remote repowith fetch and push command
+$ git remote -v
+
+# check the status of the directory if there is new file or any code change happened
+$ git status
+
+# add the new file to the remote repo
+$ git add command_test.txt
+
+# check the status of the git
+$ git status
+
+# commit the changes in file orany new file is created.
+$ git commit -m "git setup 20042023"
+
+# push the changes on the remote repo.
+$ git push
